@@ -1,5 +1,5 @@
  {
-    "name": "Sublime Summerfruit",
+    "name": "Sublime Summerfruit (Light)",
     "author": "Daniel Dizdarevic",
     "variables":
     {
@@ -230,13 +230,13 @@
         {
             "name": "Warning",
             "scope": "message.warning",
-            "foreground": "var(black)",
+            "foreground": "var(black1)",
             "background": "var(yellow)"
         },
         {
             "name": "Info",
             "scope": "message.info",
-            "foreground": "var(black)",
+            "foreground": "var(black1)",
             "background": "var(green2)"
         },
         {
