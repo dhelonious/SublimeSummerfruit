@@ -224,18 +224,33 @@
         {
             "name": "Error",
             "scope": "message.error",
-            "foreground": "var(white)",
-            "background": "var(red)"
+            "foreground": "var(red)"
         },
         {
             "name": "Warning",
             "scope": "message.warning",
-            "foreground": "var(black1)",
-            "background": "var(yellow)"
+            "foreground": "var(yellow)"
         },
         {
             "name": "Info",
             "scope": "message.info",
+            "foreground": "var(green2)"
+        },
+        {
+            "name": "Console Error",
+            "scope": "message.error.console",
+            "foreground": "var(white)",
+            "background": "var(red)"
+        },
+        {
+            "name": "Console Warning",
+            "scope": "message.warning.console",
+            "foreground": "var(black1)",
+            "background": "var(yellow)"
+        },
+        {
+            "name": "Console Info",
+            "scope": "message.info.console",
             "foreground": "var(black1)",
             "background": "var(green2)"
         },
