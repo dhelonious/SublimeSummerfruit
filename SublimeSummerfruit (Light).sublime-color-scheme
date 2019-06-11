@@ -222,6 +222,11 @@
             "font_style": "italic"
         },
         {
+            "name": "Success",
+            "scope": "message.success",
+            "foreground": "var(green1)"
+        },
+        {
             "name": "Error",
             "scope": "message.error",
             "foreground": "var(red)"
@@ -229,12 +234,18 @@
         {
             "name": "Warning",
             "scope": "message.warning",
-            "foreground": "var(yellow)"
+            "foreground": "var(orange)"
         },
         {
             "name": "Info",
             "scope": "message.info",
-            "foreground": "var(green2)"
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Console Success",
+            "scope": "message.success.console",
+            "foreground": "var(black1)",
+            "background": "var(green2)"
         },
         {
             "name": "Console Error",
@@ -246,13 +257,13 @@
             "name": "Console Warning",
             "scope": "message.warning.console",
             "foreground": "var(black1)",
-            "background": "var(yellow)"
+            "background": "var(orange)"
         },
         {
             "name": "Console Info",
             "scope": "message.info.console",
             "foreground": "var(black1)",
-            "background": "var(green2)"
+            "background": "var(yellow)"
         },
         {
             "name": "TODO",
