@@ -364,6 +364,21 @@
             "name": "Markup plain link",
             "scope": "markup.underline.link",
             "foreground": "var(blue1)"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(green1)"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "var(orange)"
         }
     ]
 }
