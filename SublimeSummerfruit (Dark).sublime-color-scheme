@@ -192,7 +192,7 @@
         },
         {
             "name": "Decorator",
-            "scope": "entity.name.function.decorator, meta.function.decorator",
+            "scope": "entity.name.function.decorator, meta.function.decorator, meta.annotation, variable.annotation, punctuation.definition.annotation",
             "foreground": "var(gray)",
             "font_style": "italic"
         },
