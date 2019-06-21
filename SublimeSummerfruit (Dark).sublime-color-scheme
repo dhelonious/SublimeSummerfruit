@@ -90,7 +90,7 @@
         {
             "name": "Constant",
             "scope": "constant",
-            "foreground": "var(blue1)"
+            "foreground": "var(blue2)"
         },
         {
             "name": "Built-in constant",
@@ -99,7 +99,7 @@
         },
         {
             "name": "User-defined constant",
-            "scope": "constant.character, constant.other",
+            "scope": "constant.character, constant.other, variable.other.constant",
             "foreground": "var(blue2)"
         },
         {
