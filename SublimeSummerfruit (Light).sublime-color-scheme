@@ -13,8 +13,9 @@
         "orange": "#fb6620",
         "yellow": "#ffe792",
         "green1": "#22a21f",
-        "green2": "#a6e22e",
-        "green3": "#dbf3cd",
+        "green2": "#80b418",
+        "green3": "#a6e22e",
+        "green4": "#dbf3cd",
         "blue1": "#1586d2",
         "blue2": "#438ec3",
         "blue3": "#c0d9eb",
@@ -62,14 +63,14 @@
             "name": "Comment",
             "scope": "comment",
             "foreground": "var(green1)",
-            "background": "var(green3)",
+            "background": "var(green4)",
             "font_style": "italic"
         },
         {
             "name": "Docstring",
             "scope": "docstring, comment.block, string.quoted.docstring, string.quoted.single.block.python, string.quoted.double.block.python",
             "foreground": "var(green1)",
-            "background": "var(green3)",
+            "background": "var(green4)",
             "font_style": "normal"
         },
         {
@@ -155,7 +156,7 @@
         {
             "name": "Tag attributes",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(green2)",
+            "foreground": "var(green3)",
             "font_style": "normal"
         },
         {
@@ -245,7 +246,7 @@
             "name": "Console Success",
             "scope": "message.success.console",
             "foreground": "var(black1)",
-            "background": "var(green2)"
+            "background": "var(green3)"
         },
         {
             "name": "Console Error",
@@ -369,7 +370,7 @@
         {
             "name": "Markup traceback",
             "scope": "markup.traceback",
-            "foreground": "var(green2)"
+            "foreground": "var(green3)"
         },
         {
             "name": "Markup plain link",
@@ -390,6 +391,32 @@
             "name": "diff.changed",
             "scope": "markup.changed",
             "foreground": "var(orange)"
+        },
+        {
+            "name": "git-savvy-added-lines",
+            "scope": "diff.inserted.git-savvy.inline-diff",
+            "foreground": "var(white)",
+            "background": "var(green2)"
+        },
+        {
+            "name": "git-savvy-removed-lines",
+            "scope": "diff.deleted.git-savvy.inline-diff",
+            "foreground": "var(white)",
+            "background": "var(red)"
+        },
+        {
+            "name": "git-savvy-added-bold",
+            "scope": "diff.inserted.char.git-savvy.inline-diff",
+            "foreground": "var(white)",
+            "background": "var(green2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "git-savvy-removed-bold",
+            "scope": "diff.deleted.char.git-savvy.inline-diff",
+            "foreground": "var(white)",
+            "background": "var(red)",
+            "font_style": "bold"
         }
     ]
 }
