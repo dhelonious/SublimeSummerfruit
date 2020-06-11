@@ -15,6 +15,7 @@
         "brown": "#9f570f",
         "pink": "#f92472",
         "red": "#f83535",
+        "red2": "#c32222",
         "yellow": "#e7db74",
         "green1": "#C8F077",
         "green2": "#a6e22c",
@@ -393,29 +394,29 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "git-savvy-added-lines",
-            "scope": "diff.inserted.git-savvy.inline-diff",
+            "name": "Diff inserted",
+            "scope": "diff.inserted",
             "foreground": "var(white)",
             "background": "var(green3)"
         },
         {
-            "name": "git-savvy-removed-lines",
-            "scope": "diff.deleted.git-savvy.inline-diff",
+            "name": "Diff deleted",
+            "scope": "diff.deleted",
             "foreground": "var(white)",
             "background": "var(red)"
         },
         {
-            "name": "git-savvy-added-bold",
-            "scope": "diff.inserted.char.git-savvy.inline-diff",
+            "name": "Diff inserted char",
+            "scope": "diff.inserted.char",
             "foreground": "var(white)",
-            "background": "var(green3)",
+            "background": "color(var(green3) blend(#000 80%))",
             "font_style": "bold"
         },
         {
-            "name": "git-savvy-removed-bold",
-            "scope": "diff.deleted.char.git-savvy.inline-diff",
+            "name": "Diff deleted char",
+            "scope": "diff.deleted.char",
             "foreground": "var(white)",
-            "background": "var(red)",
+            "background": "color(var(red) blend(#000 80%))",
             "font_style": "bold"
         }
     ]
