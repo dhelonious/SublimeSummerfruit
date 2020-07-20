@@ -473,7 +473,7 @@
         {
             "name": "Find in files query",
             "scope": "string.query.find-in-files",
-            "foreground": "var(green1)",
+            "foreground": "var(blue1)",
         },
         {
             "name": "Find in files footer",
