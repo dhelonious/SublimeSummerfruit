@@ -418,6 +418,79 @@
             "foreground": "var(white)",
             "background": "color(var(red) blend(#000 80%))",
             "font_style": "bold"
+        },
+        {
+            "name": "Find in files text",
+            "scope": "text.find-in-files",
+            "foreground": "var(white)",
+            "background": "var(black1)"
+        },
+        {
+            "name": "Find in files filename",
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "var(orange)",
+        },
+        {
+            "name": "Find in files match",
+            "scope": "match.find-in-files",
+            "foreground": "var(white)",
+            "background": "color(var(yellow) blend(#000 20%))"
+        },
+        {
+            "name": "Find in files no matches",
+            "scope": "variable.no_matches.find-in-files",
+            "foreground": "var(white)",
+        },
+        {
+            "name": "Find in files line number",
+            "scope": "constant.numeric.line-number.find-in-files",
+            "foreground": "var(gray)",
+        },
+        {
+            "name": "Find in files line number match",
+            "scope": "constant.numeric.line-number.match.find-in-files",
+            "foreground": "var(gray)",
+            "background": "color(var(yellow) blend(#000 20%))"
+        },
+        {
+            "name": "Find in files punctuation line number match",
+            "scope": "punctuation.line-number.match.find-in-files",
+            "foreground": "var(gray)",
+            "background": "color(var(yellow) blend(#000 20%))"
+        },
+        {
+            "name": "Find in files header",
+            "scope": "header.find-in-files",
+            "foreground": "var(green1)",
+            "background": "var(green4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Find in files total files count",
+            "scope": "variable.total_files_count.find-in-files",
+            "foreground": "var(green1)",
+        },
+        {
+            "name": "Find in files query",
+            "scope": "string.query.find-in-files",
+            "foreground": "var(green1)",
+        },
+        {
+            "name": "Find in files footer",
+            "scope": "footer.find-in-files",
+            "foreground": "var(green1)",
+            "background": "var(green4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Find in files count",
+            "scope": "variable.matched_count.find-in-files",
+            "foreground": "var(green1)",
+        },
+        {
+            "name": "Find in files file count",
+            "scope": "variable.matched_files_count.find-in-files",
+            "foreground": "var(green1)",
         }
     ]
 }

@@ -20,6 +20,6 @@ There is a dark variant of the Summerfruit color scheme, which is loosely based 
 
 ## Languages
 
-I use these themes mainly for **Python** and **Markdown**. They are also optimized for usage with [GitSavvy](https://packagecontrol.io/packages/GitSavvy). I expect that the highlighting in other languages is not optimal. If you have suggestions or improvements, please feel free to let me know.
+I use these themes mainly for **Python** and **Markdown**. They are also optimized for usage with [GitSavvy](https://packagecontrol.io/packages/GitSavvy) and [BetterFindBuffer](https://packagecontrol.io/packages/BetterFindBuffer). I expect that the highlighting in other languages is not optimal. If you have suggestions or improvements, please feel free to let me know.
 
 
