@@ -428,7 +428,7 @@
         {
             "name": "Find in files filename",
             "scope": "entity.name.filename.find-in-files",
-            "foreground": "var(orange)",
+            "foreground": "var(orange)"
         },
         {
             "name": "Find in files match",
@@ -439,12 +439,12 @@
         {
             "name": "Find in files no matches",
             "scope": "variable.no_matches.find-in-files",
-            "foreground": "var(white)",
+            "foreground": "var(white)"
         },
         {
             "name": "Find in files line number",
             "scope": "constant.numeric.line-number.find-in-files",
-            "foreground": "var(gray)",
+            "foreground": "var(gray)"
         },
         {
             "name": "Find in files line number match",
@@ -468,12 +468,12 @@
         {
             "name": "Find in files total files count",
             "scope": "variable.total_files_count.find-in-files",
-            "foreground": "var(green1)",
+            "foreground": "var(green1)"
         },
         {
             "name": "Find in files query",
             "scope": "string.query.find-in-files",
-            "foreground": "var(blue1)",
+            "foreground": "var(blue1)"
         },
         {
             "name": "Find in files footer",
@@ -485,12 +485,17 @@
         {
             "name": "Find in files count",
             "scope": "variable.matched_count.find-in-files",
-            "foreground": "var(green1)",
+            "foreground": "var(green1)"
         },
         {
             "name": "Find in files file count",
             "scope": "variable.matched_files_count.find-in-files",
-            "foreground": "var(green1)",
+            "foreground": "var(green1)"
+        },
+        {
+            "name": "GitSavvy rebase graph",
+            "scope": "comment.git-savvy.rebase-graph",
+            "font_style": "normal"
         }
     ]
 }
